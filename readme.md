@@ -1,14 +1,17 @@
-Certainly, here's the complete README.md based on your requirements:
+## Project Overview
 
----
+This repository contains the implementation of a simple TCP client-server application in C/C++. Here's an overview of the functionality and features:
 
-# Embedded Software Developer Application Task - README
+### TCP Client Component:
+- Connects to a specified server IP and port.
+- Periodically sends the current time and date to the server.
+- Prints the server's response.
+- Can be terminated by pressing a specific quit key (default 'Q').
 
-## Task Completion
-
-Dear Reviewer,
-
-I am pleased to submit my implementation of the simple TCP client-server application for the Embedded Software Developer position at Accuenergy Canada Inc. I would like to draw your attention to the notable aspects of my code.
+### TCP Server Component:
+- Listens on a specific port (default 8080) and accepts multiple client connections.
+- Echoes back the received messages from clients.
+- Can be terminated by pressing a specific quit key (default 'Q').
 
 ### Highlights:
 
